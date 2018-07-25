@@ -2,6 +2,9 @@
 
 - hosts: localhost
   connection: local
+  pre_tasks:
+    - meta: end_play
+      when: not delete_cluster
   tasks:
   - name: cleanup
     include_role:

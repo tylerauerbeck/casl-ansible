@@ -1,4 +1,7 @@
 ---
 - hosts: localhost
+  pre_tasks:
+    - meta: end_play
+      when: not delete_cluster
   roles:
     - { role: manage-aws-infra, action: 'absent' }
