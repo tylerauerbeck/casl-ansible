@@ -102,7 +102,3 @@ openshift_gcp_project: "{{ project_id }}"
 
 #whether your deployment is multizone.
 openshift_gcp_multizone: true
-
-#gcp network name in which OCP will be deployed
-openshift_gcp_network_name: default
-

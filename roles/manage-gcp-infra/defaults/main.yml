@@ -1,5 +1,7 @@
 ---
 
+openshift_gcp_network_name: default
+
 cloud_infrastructure:
 # default image name
   image_name: rhel7
