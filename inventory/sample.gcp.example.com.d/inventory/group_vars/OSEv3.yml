@@ -53,7 +53,8 @@ openshift_hosted_registry_storage_gcs_rootdirectory: "/registry"
 #openshift_logging_es_pvc_dynamic: true
 #openshift_logging_es_pvc_size: 40G
 #openshift_logging_curator_default_days: 1
-#openshift_logging_es_nodeselector={"node-role.kubernetes.io/infra":"true"}
+#openshift_logging_es_nodeselector: 
+#  node-role.kubernetes.io/infra : true
 
 openshift_node_groups:
 - name: node-config-master
