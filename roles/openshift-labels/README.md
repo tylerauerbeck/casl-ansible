@@ -14,3 +14,4 @@ tasks:
 ```
 When the `target_namespace` is ommitted, the current oc client namespace is used.
 
+This role can apply multiple labels to an object at the same time. This can be done by providing a space seperated list of labels.
